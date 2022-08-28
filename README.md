@@ -1,5 +1,5 @@
 # Autopilot User Provisioning
-Autopilot user provisioning package for user customisation. This package registers local experience packs for users and configure user locale preferences.
+Autopilot user provisioning package for user customisation. This package registers local experience packs for users and configures user locale preferences.
 
 ## Usage
 1. Download the package and customise Install.ps1.
