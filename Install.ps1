@@ -1,7 +1,7 @@
 <#
 .DESCRIPTION
 	Autopilot user provisioning package for user customisation.
-	This package registers local experience packs for users and configure user locale preferences.
+	This package registers local experience packs for users and configures user locale preferences.
 .NOTES
 	Version:	1.0
 	Author:		https://github.com/rh-au
