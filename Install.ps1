@@ -18,7 +18,7 @@ if ("$env:PROCESSOR_ARCHITEW6432" -ne "ARM64") {
 Start-Transcript -Path "$env:AppData\Autopilot\Install.log" | Out-Null
 
 # Register local experience packs
-(Get-AppxPackage | Where-Object { $_.Name -like "Microsoft.LanguageExperiencePack*" }).InstallLocation | ForEach-Object {
+(Get-AppxPackage | Where-Object { $_.Name -match "Microsoft.LanguageExperiencePack" }).InstallLocation | ForEach-Object {
 	Add-AppxPackage -Register -Path "$_\AppxManifest.xml" -DisableDevelopmentMode | Out-Null
 }
 
